@@ -225,7 +225,7 @@
           "corner_radius_percentage": 100,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.5,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -238,6 +238,10 @@
         {
           "diameter": 0.45,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false,
@@ -673,7 +677,7 @@
       "gencad": "CM5IOUSB3.cad",
       "idf": "",
       "netlist": "CM5IO.net",
-      "plot": "./",
+      "plot": "/Users/doruk/Desktop/out/",
       "pos_files": "RPI-CM5IO-Gerber200924/",
       "specctra_dsn": "",
       "step": "CM5IO.step",
@@ -863,5 +867,13 @@
       "PCIe-M2"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PROJ_BOARD_ID": "${PROJ_TIME_YYYY}${PROJ_TIME_MM}${PROJ_ID}${PROJ_REV_MAJOR}${PROJ_REV_MINOR}",
+    "PROJ_ID": "01",
+    "PROJ_REV_MAJOR": "00",
+    "PROJ_REV_MINOR": "30",
+    "PROJ_TIME_DD": "29",
+    "PROJ_TIME_MM": "11",
+    "PROJ_TIME_YYYY": "2025"
+  }
 }
