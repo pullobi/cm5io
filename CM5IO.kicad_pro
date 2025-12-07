@@ -678,7 +678,7 @@
       "idf": "",
       "netlist": "CM5IO.net",
       "plot": "/Users/doruk/Desktop/out/",
-      "pos_files": "RPI-CM5IO-Gerber200924/",
+      "pos_files": "/Users/doruk/Desktop/out/",
       "specctra_dsn": "",
       "step": "CM5IO.step",
       "svg": "SVG/",
@@ -868,12 +868,11 @@
     ]
   ],
   "text_variables": {
-    "PROJ_BOARD_ID": "${PROJ_TIME_YYYY}${PROJ_TIME_MM}${PROJ_ID}${PROJ_REV_MAJOR}${PROJ_REV_MINOR}",
     "PROJ_ID": "01",
     "PROJ_REV_MAJOR": "00",
-    "PROJ_REV_MINOR": "30",
-    "PROJ_TIME_DD": "29",
-    "PROJ_TIME_MM": "11",
+    "PROJ_REV_MINOR": "50",
+    "PROJ_TIME_DD": "06",
+    "PROJ_TIME_MM": "12",
     "PROJ_TIME_YYYY": "2025"
   }
 }
